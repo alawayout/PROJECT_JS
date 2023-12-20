@@ -1,0 +1,40 @@
+.wrapper {
+    padding: 0 3%;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(40, 40, 40, 1);
+    font-weight: 700;
+    font-size: 64px;
+}
+.elems {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+}
+.elem {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(139, 139, 139, 1);
+    font-size: 20px;
+}
+.head {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(40, 40, 40, 1);
+    font-size: 40px;
+    font-weight: 400;
+}
+.images {
+    display: flex;
+    gap: 10px;
+}

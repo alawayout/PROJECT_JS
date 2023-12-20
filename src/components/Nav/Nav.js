@@ -1,14 +1,21 @@
+import style from "./Nav.module.css"
+
+
 function Nav() {
     return (
-        <div>
-            <img src="image/logo.svg" alt=""/>
-            <div>
-                <a href="">Main Page</a>
-                <a href="">Categories</a>
-                <a href="">All Products</a>
-                <a href="">All Sales</a>
+        <div className={style.header}>
+            <a href="you">
+                <img className={style.imageOne} src="image/logo.svg" alt=""/>
+            </a>
+            <div className={style.links}>
+                <a className={style.link} href="you">Main Page</a>
+                <a className={style.link} href="you">Categories</a>
+                <a className={style.link} href="you">All Products</a>
+                <a className={style.link} href="you">All Sales</a>
             </div>
-            <img src="image/basket.svg" alt=""/>
+            <a href="you">
+                <img className={style.imageTwo} src="image/basket.svg" alt=""/>
+            </a>
         </div>
     )
 }

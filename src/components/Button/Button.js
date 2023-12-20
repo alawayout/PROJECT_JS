@@ -3,8 +3,7 @@ function Button(props) {
     let {paragraph, color} = props
 
     return (
-        
-        <button backgroundColor={color}>
+        <button style={{backgroundColor: color}}>
             {paragraph}
         </button>
     )

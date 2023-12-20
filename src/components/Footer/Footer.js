@@ -1,6 +1,12 @@
+import ContactInfo from "../ContactInfo/ContactInfo"
+import GoogleMaps from "../GoogleMaps/GoogleMaps"
+
 function Footer() {
     return (
-        <div></div>
+        <div>
+            <ContactInfo/>
+            <GoogleMaps/>
+        </div>
     )
 }
 
